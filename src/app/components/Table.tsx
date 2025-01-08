@@ -5,11 +5,13 @@ const Table = () => {
   return (
     <table className="w-full border-b-[1.5px] border-primaryGray">
       <thead className="px-10 text-gray-500 font-medium items-center">
-        <td>Descriptions</td>
-        <td>Ref/Check Numbers</td>
-        <td>Type</td>
-        <td>Deposit</td>
-        <td>Withdraw</td>
+        <tr>
+        <th>Descriptions</th>
+        <th>Ref/Check Numbers</th>
+        <th>Type</th>
+        <th>Deposit</th>
+        <th>Withdraw</th>
+        </tr>
       </thead>
       <tbody>
         <tr className="border-b-[1.5px]">

@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Sidebar from "./components/Sidebar";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./Dashboard/page";
 
 export default function Home() {
   return (
     <div className="flex">
-      <Sidebar />
       <Dashboard />
     </div>
   );
