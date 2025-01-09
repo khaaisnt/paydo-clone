@@ -27,13 +27,13 @@ export default function Sidebar({ router }) {
       <button
         onClick={toggleSidebar}
         className={`fixed top-4 left-48 z-50 rounded-full p-2 flex items-center justify-center bg-primaryGreen hover:bg-primaryGreen duration-200 ${
-          isCollapsed ? "rotate-180 -translate-x-40 duration-200" : ""
+          isCollapsed ? "rotate-180 -translate-x-[210px] duration-200" : ""
         }`}
       >
         <FaAngleLeft className="text-2xl text-white transition-transform" />
       </button>
       <aside
-        className={`top-0 left-0 z-40 h-screen transition-transform ${
+        className={`top-0 left-0 h-full z-40 fixed transition-transform ${
           isCollapsed ? "-translate-x-full" : "translate-x-0"
         } ${isSidebarVisible ? "w-64" : "w-20"}`}
       >
